@@ -1,0 +1,64 @@
+/* General Styles  */
+
+body {
+  background-image: url('/img/Endless-Constellation.svg');
+  font-family: 'Roboto', sans-serif;
+}
+
+label,
+input {
+  display: block;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+/* Form */
+
+/* Curriculum */
+
+.container-cv {
+  background-color: #ffffff;
+  width: 55%;
+  margin: 0 auto;
+  border-radius: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.curriculum {
+  background-color: #bde5e1;
+  width: 90%;
+  margin: 0 auto;
+  border: 2px black solid;
+  padding-left: 0.5rem;
+  box-shadow: 5px 10px 8px #888888;
+}
+
+.img-cv {
+  border-radius: 50%;
+  width: 50%;
+  margin-top: 0.5rem;
+  margin-left: 4rem;
+  border: 2px black solid;
+}
+
+.container-img-info {
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+
+.info-cv {
+  overflow: hidden;
+}
+
+.img-and-title-cv {
+  margin-left: 2rem;
+}
+
+.title-cv {
+  text-decoration: underline;
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+}
