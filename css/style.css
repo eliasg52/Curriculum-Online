@@ -15,10 +15,6 @@ input {
   font-weight: bold;
 }
 
-li {
-  list-style-type: circle;
-}
-
 a {
   font-weight: bold;
   text-decoration: none;
