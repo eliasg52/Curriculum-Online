@@ -3,6 +3,7 @@
 body {
   background-image: url('../img/Endless-Constellation.svg');
   font-family: 'Roboto', sans-serif;
+  font-size: 17px;
 }
 
 label,
@@ -12,6 +13,15 @@ input {
 
 .bold {
   font-weight: bold;
+}
+
+li {
+  list-style-type: circle;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
 }
 
 /* Curriculum */
@@ -71,4 +81,8 @@ input {
 
 .code-color {
   color: indigo;
+}
+
+.links {
+  margin-left: 1.4rem;
 }
